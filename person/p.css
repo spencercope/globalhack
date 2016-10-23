@@ -1,0 +1,9 @@
+#mainDiv {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+.nav {
+    background: #ccc;
+    height: 40px;
+}

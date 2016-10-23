@@ -10,7 +10,7 @@
         {
             var theID = document.getElementById("id").value;
             var array = theID.match(/[^" "]+/g);
-            alert("First Name: "+ array[0] + "\n" +"Last Name: " + array[1] + "\n" + "Age: " + array[2] + "\n" + "Last 4 of SSN: " + array[3]);
+            alert("First Name: "+ array[0] + "\n" +"Last Name: " + array[1] + "\n" + "Age: " + array[2] + "\n" + "Last 4 of SSN: " + array[3]) + "\n+10";
         }
     </script>
 </head>
@@ -19,6 +19,7 @@
     <li style="padding: 8px 50px 0px 20px">Hacking Homes</li>
     <li role="presentation"><a href="http://spencerjcope.com/g6">Home</a></li>
     <li role="presentation"><a id="qrbtn" href="http://spencerjcope.com/g6/qrReader/qindex">QR Reader</a></li>
+    <li role="presentation"><a id="cltbtn" href="http://spencerjcope.com/g6/person/pindex.html">Client</a></a> </li>
 </ul>
 <div id="mainDiv">
     <form>

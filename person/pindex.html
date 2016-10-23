@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PersonApp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+<ul class="nav nav-pills">
+    <li style="padding: 8px 50px 0px 20px">Hacking Homes</li>
+    <li role="presentation"><a href="http://spencerjcope.com/g6">Home</a></li>
+    <li role="presentation"><a id="qrbtn" href="http://spencerjcope.com/g6/qrReader/qindex">QR Reader</a></li>
+    <li role="presentation"><a id="cltbtn" href="http://spencerjcope.com/g6/person/pindex.html">Client</a></a> </li>
+</ul>
+
+<div id="mainDiv">
+<h2>Please confirm the client's information</h2>
+<div action="action_page.php">
+    First name:<br>
+    <input type="text" name="firstname" placeholder="First Name">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" placeholder="Last Name">
+    <br>
+    Age:<br>
+    <input type="text" name="age" placeholder="Age"><br>
+    SSNLast:<br>
+    <input type="text" name="ssnlast" placeholder="Last 4 SSN">
+    <br><br><br>
+    <h2>Please select which service the client is using</h2>
+    <select>
+        <option placeholder="healthcare">Health Services</option>
+        <option placeholder="shelter">Shelter</option>
+        <option placeholder="foodservices">Food Services</option>
+        <option placeholder="socialservices">Social Services</option>
+        <option placeholder="substanceabuse">Substance Abuse Treatment</option>
+    </select>
+    <br><br><br>
+    <h2>Please select additional services the client completed today</h2>
+    <form action="demo_form.asp">
+        <input type="checkbox" name="Personal History" placeholder="personalhsitory"> Personal History<br>
+        <input type="checkbox" name="Medical History" placeholder="medicalhistory"> Medical History<br>
+        <input type="checkbox" name="Health and Wellness" placeholder="healthandwellness"> Health and Wellness<br>
+        <input type="checkbox" name="Family History" placeholder="familyhistory"> Family History<br>
+
+
+
+
+
+
+
+
+        <br><br>
+        <input type="submit" value="Submit" class="btn btn-primary" placeholder="Submit">
+    </form>
+
+    <h2>Add Client points:</h2>
+    <form>
+        <input type="text">
+        <input type="button" class="btn btn-primary" value="Submit">
+        <br>
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+    </div>
+</body>
+</html>
